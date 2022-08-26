@@ -13,7 +13,7 @@ blueprint:
         more window sensors please make a group sensor.
       selector:
         entity:
-          domain: groups
+          domain: binary_sensor
           multiple: false
     minimum_open_time:
       name: Miniumum open time
